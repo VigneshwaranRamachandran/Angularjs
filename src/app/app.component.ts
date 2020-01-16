@@ -11,7 +11,10 @@ import 'rxjs/add/operator/map';
      <li><a href = "/Product">Product</a></li>
      <li><a [routerLink] = "['/Inventory']">Inventory</a></li>
   </ul>
-  <router-outlet></router-outlet>`,
+  <router-outlet></router-outlet>
+  <formdata></formdata>
+  <injuct></injuct> 
+`,
   providers: [ProductService]
 })
 
